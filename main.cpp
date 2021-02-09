@@ -10,10 +10,14 @@ Lab2b*/
 int main(){
 	int L,U;
 
-	std::cout << "[Test] L = 5, U = 10\n" << print_interval(5,10) << std::endl;
-	std::cout << "[Test] L = -1, U = 13\n" << print_interval(-1,13) << std::endl;
-	std::cout << "[Test] L = 4, U = 20\n" << print_interval(4,20) << std::endl;
-	std::cout << "[Test] L = -7, U = 1\n" << print_interval(-7,1) << std::endl;
+	std::cout << "[Test] L = 5, U = 10\n" << std::endl;
+	print_interval(5,10);
+	std::cout << "[Test] L = -1, U = 13\n" << std::endl;
+	print_interval(-1,13);
+	std::cout << "[Test] L = 4, U = 20\n" << std::endl;
+	print_interval(4,20); 
+	std::cout << "[Test] L = -7, U = 1\n"<< std::endl;
+	print_interval(-7,1); 
 
 	std::cout << "Please Enter L: \n";
 	std::cin >> L;
