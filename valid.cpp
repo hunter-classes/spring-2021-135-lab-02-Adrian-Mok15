@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
 	int n = -1;
-	while(n<0||n>100){
+	while(n<=0||n>=100){
 		cout<< "Please enter a number: ";
 		cin>>n;
 	}

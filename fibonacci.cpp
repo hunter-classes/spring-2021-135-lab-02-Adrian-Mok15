@@ -8,7 +8,7 @@ using namespace std;
 
 int main(){
 	// int a,b,c; //
-	int fib[60];
+	double fib[60];
 	fib[0] = 0;
 	fib[1] = 1;
 	for(int i = 2; i<60; i++){
